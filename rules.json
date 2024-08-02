@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.m3u8^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.ts^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.mpd^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.m4i^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.m4a^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.m4s^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.m4v^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.mp4^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 9,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.aac^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 10,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*manifest(*",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 11,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*fragments(*",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 12,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*keydelivery*",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"],
+      "requestMethods": ["post"]
+    }
+  },
+  {
+    "id": 13,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "set", "value": "null"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]  
+    },
+    "condition": {
+      "urlFilter": "*keydelivery*",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"],
+      "requestMethods": ["options"]
+    }
+  },
+  {
+    "id": 14,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "X-Meme-Magic-Installed", "operation": "set", "value": "true"}]
+    },
+    "condition": {
+      "regexFilter": "^https://(.*[.]memesyndicate.to|.*[.]memesyndicate.com|.*[.]zipstreams.net|memesyndicate.to)/",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  },
+  {
+    "id": 15,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
+      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+    },
+    "condition": {
+      "urlFilter": "*.vtt^",
+      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
+    }
+  }
+]

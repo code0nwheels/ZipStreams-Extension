@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "ZipStreams",
+  "version": "0.0.2",
+  "description": "Fun",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.zipstreams.net/*",
+    "*://*.mlb.com/*",
+    "*://*.espn.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{672bbfc5-0ab8-4306-9539-0fe99e824510}"
+    },
+    "gecko_android": {
+      "id": "{672bbfc5-0ab8-4306-9539-0fe99e824510}"
+    }
+  }
+}
