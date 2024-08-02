@@ -4,8 +4,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.m3u8^",
@@ -17,8 +22,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.ts^",
@@ -30,8 +40,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.mpd^",
@@ -43,8 +58,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.m4i^",
@@ -56,8 +76,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.m4a^",
@@ -69,8 +94,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.m4s^",
@@ -82,8 +112,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.m4v^",
@@ -95,8 +130,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.mp4^",
@@ -108,8 +148,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.aac^",
@@ -121,8 +166,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*manifest(*",
@@ -134,8 +184,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*fragments(*",
@@ -147,8 +202,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*keydelivery*",
@@ -161,8 +221,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "set", "value": "null"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]  
+      "requestHeaders": [
+        { "header": "Origin", "operation": "set", "value": "null" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*keydelivery*",
@@ -175,7 +240,9 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "X-Meme-Magic-Installed", "operation": "set", "value": "true"}]
+      "requestHeaders": [
+        { "header": "X-Meme-Magic-Installed", "operation": "set", "value": "true" }
+      ]
     },
     "condition": {
       "regexFilter": "^https://(.*[.]memesyndicate.to|.*[.]memesyndicate.com|.*[.]zipstreams.net|memesyndicate.to)/",
@@ -187,8 +254,13 @@
     "priority": 1,
     "action": {
       "type": "modifyHeaders",
-      "requestHeaders": [{ "header": "Origin", "operation": "remove"}],
-      "responseHeaders": [{ "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*"}]
+      "requestHeaders": [
+        { "header": "Origin", "operation": "remove" },
+        { "header": "Referer", "operation": "remove" }
+      ],
+      "responseHeaders": [
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
     },
     "condition": {
       "urlFilter": "*.vtt^",
