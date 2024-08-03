@@ -241,20 +241,6 @@
     "action": {
       "type": "modifyHeaders",
       "requestHeaders": [
-        { "header": "X-Meme-Magic-Installed", "operation": "set", "value": "true" }
-      ]
-    },
-    "condition": {
-      "regexFilter": "^https://(.*[.]memesyndicate.to|.*[.]memesyndicate.com|.*[.]zipstreams.net|memesyndicate.to)/",
-      "initiatorDomains": ["memesyndicate.to", "memesyndicate.com", "zipstreams.net"]
-    }
-  },
-  {
-    "id": 15,
-    "priority": 1,
-    "action": {
-      "type": "modifyHeaders",
-      "requestHeaders": [
         { "header": "Origin", "operation": "remove" },
         { "header": "Referer", "operation": "remove" }
       ],
